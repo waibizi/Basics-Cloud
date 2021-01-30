@@ -12,14 +12,9 @@
     <artifactId>Cloud-Serve</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>Cloud-User-Serve</module>
+        <module>Cloud-User-Serve-Provider</module>
+        <module>Cloud-User-Serve-Consumer</module>
     </modules>
 
-    <dependencies>
-        <!-- Nacos的注册发现 -->
-        <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
-        </dependency>
-    </dependencies>
+
 </project>
